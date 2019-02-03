@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
   "name": "Maikelify",
-  "version": "1",
-	"description": "No description yet",
+  "version": "1.1",
+	"description": "A Facebook cleaner with simplicity at its core",
   "icons": {
 		"48": "icons/nowords.png"
 	},
@@ -29,6 +29,6 @@
 	  "default_icon": {
 	    "48": "icons/nowords.png"
 	  },
-	  "default_title": "Whereami?"
+	  "default_title": "Maikelify"
 	}
 }
