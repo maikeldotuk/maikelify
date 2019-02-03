@@ -1,0 +1,34 @@
+{
+	"manifest_version": 2,
+  "name": "Maikelify",
+  "version": "1",
+	"description": "No description yet",
+  "icons": {
+		"48": "icons/nowords.png"
+	},
+	"applications": {
+	  "gecko": {
+	    "id": "maikel@maikel.uk"
+	  }
+	},
+	"permissions": [
+		"webNavigation",
+		"activeTab"
+	],
+	"content_scripts": [
+	    {
+      "matches": ["*://*.facebook.com/*"],
+			"run_at": "document_idle",
+      "js": ["maikelify.js"]
+	    }
+	],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"browser_action": {
+	  "default_icon": {
+	    "48": "icons/nowords.png"
+	  },
+	  "default_title": "Whereami?"
+	}
+}
