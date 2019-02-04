@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
-  "name": "Maikelify",
-  "version": "1.1",
+  "name": "Zuckerbox",
+  "version": "1.2",
 	"description": "A Facebook cleaner with simplicity at its core",
   "icons": {
 		"48": "icons/nowords.png"
@@ -30,5 +30,6 @@
 	    "48": "icons/nowords.png"
 	  },
 	  "default_title": "Maikelify"
-	}
+	},
+  "web_accessible_resources": ["images/zucky.jpg"]
 }
