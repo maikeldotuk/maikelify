@@ -1,15 +1,10 @@
 {
 	"manifest_version": 2,
   "name": "Zuckerbox",
-  "version": "1.2",
+  "version": "1.4",
 	"description": "A Facebook cleaner with simplicity at its core",
   "icons": {
 		"48": "icons/nowords.png"
-	},
-	"applications": {
-	  "gecko": {
-	    "id": "maikel@maikel.uk"
-	  }
 	},
 	"permissions": [
 		"webNavigation",
@@ -29,7 +24,9 @@
 	  "default_icon": {
 	    "48": "icons/nowords.png"
 	  },
-	  "default_title": "Maikelify"
+	  "default_title": "Zuckerbox"
 	},
-  "web_accessible_resources": ["images/zucky.jpg"]
+  "web_accessible_resources": [
+    "images/zucky.jpg"
+  ]
 }
