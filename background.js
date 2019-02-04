@@ -17,3 +17,4 @@ function lis(details) {
 }
 
 compatibility.webNavigation.onCompleted.addListener(lis)
+compatibility.webNavigation.onHistoryStateUpdated.addListener(lis)
