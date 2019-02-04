@@ -17,7 +17,6 @@ const crapToRemove = [
 
 const complexCrap = [
   '._57fp > div:nth-child(1)',
-  '._5h60',
 	'#u_ps_jsonp_10_0_0',
   '.escapeHatchMinimal',
   '#pagelet_pymk_timeline'
