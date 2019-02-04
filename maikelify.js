@@ -69,6 +69,10 @@ function addEvilZucky() {
     newImage.src = pathToImage
     newImage.id = 'zucky'
     newImage.width = document.querySelector('#pagelet_composer').clientWidth
+    const text = document.createElement('h1')
+    text.style = 'color: white; font-size: 30px; background-color: #000000; position: relative; margin-top: -50px;margin-left: 10px;opacity: 0.6'
+    text.innerText = 'No privacy for you'
+    contentCol.insertBefore(text, contentCol.firstChild)
     contentCol.insertBefore(newImage, contentCol.firstChild)
   }
 }
