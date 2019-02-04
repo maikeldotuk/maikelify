@@ -8,7 +8,7 @@ function changeTextTop() {
 	const whatsOnYourMind = document.querySelectorAll('textarea')[0]
   if (whatsOnYourMind && whatsOnYourMind.placeholder.indexOf("on your") !== -1	) {
 		const endname = whatsOnYourMind.placeholder.split(' ')[4]
-		whatsOnYourMind.placeholder = "How can I fuck you up, " + endname
+		whatsOnYourMind.placeholder = "What ads should I show you today, " + endname
   }
 	const picTop = document.querySelector('._mp3 > img:nth-child(1)')
 	if (picTop) {
